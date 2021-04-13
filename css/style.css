@@ -1,0 +1,509 @@
+body{
+	padding: 0;
+	margin: 0;
+	
+}
+
+img{
+	padding: 0;
+	margin: 0;
+}
+#Contact .ContactBackground{
+	background-image: url('../images/contact.jpg');
+	background-size: cover;
+	background-position: center center;
+    background-repeat: no-repeat; 
+    position: relative;
+     height: 100%;
+    width: 100%;
+}
+
+
+#Contact .header {
+	padding: 2%;
+	text-align: center;
+	font-family: sans-serif;
+	
+}
+
+
+#Contact .contactbox{
+	background-color: #dfdfdf;
+	margin-top: 5%;
+    margin-left: 10%;
+	margin-bottom: 10%;
+	width: 80%;
+	padding:10%;
+	text-align: center;
+	border-radius: 20px;
+
+}
+
+#Contact .contactbox2{
+	background-color: white;
+	margin-left: 10%;
+	width: 80%;
+	padding:10%;
+	text-align: center;
+	
+}
+
+
+
+#Contact .formcontrol input[type="text"],.formcontrol textarea[type="message"]{
+    
+    width: 100%;
+    color: black;
+    background: transparent;
+    position: relative;
+	text-align: center;
+	border:3px solid black;
+	border-radius: 20px;
+	margin-bottom: 4%;
+}
+
+
+
+#Contact .submit{
+	background:red;
+	text-align: center;
+	border:2px solid #3498db;
+	border-radius: 24px;
+	height: 50px;
+	font-size: 80%;
+	width: 50%;
+	color: white;
+}
+
+
+input{
+	height:50px;
+}
+
+
+
+
+#Login .LoginForm h2{
+	padding-top: 2%;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-bottom: 2%;
+	color: white;
+	text-align: center;
+}
+
+#Login .LoginForm{
+	background-image: url('../images/login2.jpg');
+	background-size: cover;
+	background-position: center center;
+    background-repeat: no-repeat; 
+    position: relative; 
+    height: 100%;
+    width: 100%;
+
+}
+
+#Login .box{
+	
+	margin-left:25%;
+    width: 80%;
+    position: relative;
+	text-align: center;
+	border-radius: 20px;
+
+
+}
+
+
+
+#Login .row{
+	margin-right: 15%;
+}
+
+#Login .box h1{
+	padding: 5%;
+	margin-top:  7%;
+	margin-bottom: 8%;
+	color: white;
+}
+#Login .box input[type="text"],.box input[type="password"]{
+
+	display:block;
+	position: relative;
+	margin-left: 50%;
+	background:transparent;
+    transform: translate(-50%,-50%);
+	text-align: center;
+	border:2px solid #3498db;
+	width: 60%;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	margin-bottom: 5%;
+}
+#Login .box input[type="text"]:focus,.box input[type="password"]:focus{
+	width: 280px;
+	border-color: #2ecc71;
+}
+
+#Login .box input[type="submit"]{
+	background-color: none;
+	display:block;
+	background:red;
+	margin-left:25%;
+	text-align: center;
+	border:2px solid #3498db;
+	border-radius: 24px;
+	width: 50%;
+	color: white;
+	transition: 0.25s;
+	margin-bottom: 10.7%;
+
+
+}
+
+#Login .box input[type="submit"]:hover{
+	background:#2ecc71; 
+
+}
+
+
+
+
+#admin .sidebar {
+	background-image: url('../images/admin.jpg');
+	background-size: cover;
+    background-repeat: no-repeat; 
+    position: relative; 
+    height: 100vh;
+    width: 100%; 
+}
+
+#admin .Admin_form{
+	padding-top:10%;
+	text-align: center;
+}
+
+#admin h1{
+	font-weight: bolder;
+	font-family: serif;
+	font-size: 250%;
+	background: transparent;
+	letter-spacing: 2%;
+	text-align: center;
+	padding: 2%;
+}
+
+#admin .submit{
+	background:black;
+	width: 25%;
+    margin-top: 2%;
+	color: #ffff;
+	font-size: 120%;
+	font-weight: bold;
+	letter-spacing: 1px;
+	height:8%;
+	border:2px solid #3498db;
+	border-radius: 24px;
+
+}
+
+#admin .submit:hover{
+	transition: 0.25s;
+	background:red; 
+
+}
+
+
+
+#Home .Head{
+	background-color: #313133;
+
+
+}
+
+#Home .Head a{
+color: white;
+font-family: serif;
+
+font-size: 15px;
+	
+}
+
+
+
+#Home .Head i{
+	color: white;
+}
+
+
+
+ #Home .navbar-toggler-icon {
+border:2px solid white;
+
+
+}
+
+#product .productlist{
+	  text-align: center;
+	  padding: 1%;
+	background-color:#FF4500;
+	
+
+
+}
+
+#product .productlist a{
+   
+	color: white;
+	  padding: .5%;
+	  border-right: 1px solid white;
+	
+
+}
+
+#product .productlist a:hover{
+	background:white; 
+    color: black;
+    font-family:serif;
+	border:1px solid white;
+	transition: .25s;
+
+
+}
+
+#bannerpart .listicon{
+	background-color:white;
+	
+
+}
+
+#banner_part .Slider{
+	padding: 1%;
+background-color:#f4f5f7;
+}
+
+
+#banner_part .item{
+    text-align: center;
+	padding: 2%;
+    border: 1px solid #7a7a7a;
+}
+
+#nav_part .form-inline{
+ 
+  width: 45%;
+ 
+}
+
+#nav_part p{
+  margin-left: auto;
+  width: 80%;
+  text-align: center;
+  margin-right: auto;
+
+
+}
+#nav_part .center{
+	
+	 display: block;
+     width: 30%;
+
+}
+
+#dynamicproduct .row2{
+	float: left;
+	height: auto;
+	width: 25%;
+	border: 1px white ;
+
+  
+}
+
+#dynamicproduct .product{
+	margin-top: 1%;
+	padding: 1%;
+background-color:#f4f5f7;
+border: 2px white outset
+}
+
+#Endingpart .end{
+	margin-top: 1%;
+	padding: 1%;
+border: 2px white outset;
+ background-color: #343a40;
+}
+
+
+
+@media(max-width: 775px){
+#nav_part .center{
+	
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+  width: 50%;
+   padding: 3%;
+}
+
+
+
+#nav_part .form-inline{
+  display: block;
+  margin-left: auto;
+  width: 100%;
+  margin-right: auto;
+  margin-top: -10%;
+  padding: 5%;
+  text-align: center;
+}
+#nav_part .text {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10%;
+   padding: 5%;
+	
+}
+#admin .Admin_form{
+	padding-top:10%;
+	text-align: center;
+}
+#admin .submit{
+	background:black;
+	width: 40%;
+    margin-top: 2%;
+	color: #ffff;
+	font-size: 120%;
+	font-weight: bold;
+	letter-spacing: 1px;
+	height:10%;
+	border:2px solid #3498db;
+	border-radius: 24px;
+
+}
+#Login .box input[type="text"],.box input[type="password"]{
+	width: 100%;
+	}
+
+#dynamicproduct .row2{
+	
+	width: 33%;
+	
+
+  
+}
+#banner_part .item{
+    text-align: center;
+	padding: 2%;
+     border: 1px solid #7a7a7a;
+}
+
+
+
+
+
+
+
+}
+
+@media(max-width: 575px){
+#nav_part .center{
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+   padding: 5%;
+
+}
+
+#bannerpart .ul{
+	float: left;
+	background-color:white;
+		font-size: 80%;
+	
+}
+
+#nav_part .form-inline{
+  display: block;
+  margin-left: auto;
+  width: 70%;
+  margin-right: auto;
+  margin-top: -10%;
+  padding: 5%;
+  text-align: center;
+}
+#nav_part .text {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+   padding: 5%;
+     text-align: center;
+	
+}
+ .item{
+    text-align: center;
+    border: 1px solid #7a7a7a;
+   
+}
+#banner_part .Slider .listicon li{
+	float: left;
+	width: 33.33%;
+	padding: 1%;
+
+}
+
+
+#admin .Admin_form{
+	padding-top:20%;
+	text-align: center;
+}
+#admin .submit{
+	background:black;
+	width: 40%;
+    margin-top: 2%;
+	color: #ffff;
+	font-size: 120%;
+	font-weight: bold;
+	letter-spacing: 1px;
+	height:10%;
+	border:2px solid #3498db;
+	border-radius: 24px;
+
+}
+#admin h1{
+	
+	font-size: 200%;
+	
+}
+
+#Login .box input[type="text"],.box input[type="password"]{
+	width: 80%;
+	}
+
+#Endingpart .end .col-md-4{
+float: left;
+width: 33.33%;
+
+}
+#Endingpart .end h3{
+font-size: 80%;
+}
+
+#Endingpart .end a{
+font-size: 80%;
+}
+#Endingpart .end img{
+	width: 70%;
+}
+#dynamicproduct .product .listicon li{
+
+	float: left;
+	width: 33.33%;
+	padding: 1%;
+}
+
+
+}
